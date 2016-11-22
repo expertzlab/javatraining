@@ -1,0 +1,4 @@
+THis is a file
+just created for
+reading the content
+and to print it
