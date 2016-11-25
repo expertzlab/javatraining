@@ -13,7 +13,7 @@ public class CanvasEventPressHandler implements EventHandler<MouseEvent> {
 
     GraphicsContext gc;
 
-    CanvasEventPressHandler(GraphicsContext gc){
+    public CanvasEventPressHandler(GraphicsContext gc){
         this.gc = gc;
     }
 

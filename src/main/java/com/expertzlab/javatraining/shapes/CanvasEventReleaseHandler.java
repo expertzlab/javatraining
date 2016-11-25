@@ -13,7 +13,7 @@ public class CanvasEventReleaseHandler implements EventHandler<MouseEvent> {
     GraphicsContext gc;
     public static ShapeBase.Color color = new ShapeBase.Color();
 
-    CanvasEventReleaseHandler(GraphicsContext gc){
+    public CanvasEventReleaseHandler(GraphicsContext gc){
         this.gc = gc;
     }
 

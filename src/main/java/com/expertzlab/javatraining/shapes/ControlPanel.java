@@ -23,7 +23,7 @@ public class ControlPanel extends GridPane {
     public static Point2D start;
 
 
-   ControlPanel(){
+   public ControlPanel(){
        rectangle = new Button("Rectangle");
        line = new Button("Line");
 
