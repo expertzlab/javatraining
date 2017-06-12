@@ -1,28 +1,29 @@
 package com.expertzlab.javatraining.hello;
 
+import java.util.Scanner;
+
 /**
  * Created by gireeshbabu on 08/06/17.
  */
 public class Hello {
 
-    int i = 10;
-    int j = 20;
+    int a = 15;
 
-    public static void main(String[] args) {
-      System.out.println("Hello I am main");
-      HelloSecond.mymethod();
+  public static void main(String[] v){
 
-    }
-}
+      System.out.println("calling calculate");
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter a value:");
+      int x = sc.nextInt();
+      System.out.println("Enter a new value:");
+      int y = sc.nextInt();
+      int sum = calculateSum(x,y);
+      System.out.println("Sum = " + sum);
+  }
 
-class HelloSecond{
-
-    static Hello var = new Hello();
-
-    public static void mymethod(){
-
-        System.out.println("i = "+var.i);
-        System.out.println("j = "+var.j);
-    }
+  static int calculateSum(int a, int b){
+        System.out.printf("We received x - %d, y - %d\n",a,b);
+        return a+b;
+  }
 
 }
