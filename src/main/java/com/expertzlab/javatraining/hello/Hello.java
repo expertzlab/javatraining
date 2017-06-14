@@ -7,23 +7,22 @@ import java.util.Scanner;
  */
 public class Hello {
 
-    int a = 15;
-
   public static void main(String[] v){
 
       System.out.println("calling calculate");
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter a value:");
-      int x = sc.nextInt();
+      byte x = sc.nextByte();
       System.out.println("Enter a new value:");
-      int y = sc.nextInt();
-      int sum = calculateSum(x,y);
+      byte y = sc.nextByte();
+      byte sum = calculateSum(x,y);
       System.out.println("Sum = " + sum);
   }
 
-  static int calculateSum(int a, int b){
+  static byte calculateSum(byte a, byte b){
         System.out.printf("We received x - %d, y - %d\n",a,b);
-        return a+b;
+        byte sum = (byte) (a + b);
+        return sum;
   }
 
 }
