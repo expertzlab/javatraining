@@ -1,4 +1,4 @@
-package com.expertzlab.arrays;
+package com.expertzlab.javatraining.arrays;
 
 import java.util.Arrays;
 

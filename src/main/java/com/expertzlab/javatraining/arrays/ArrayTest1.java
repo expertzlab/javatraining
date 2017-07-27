@@ -1,4 +1,4 @@
-package com.expertzlab.arrays;
+package com.expertzlab.javatraining.arrays;
 
 /**
  * Created by gireeshbabu on 26/07/17.
